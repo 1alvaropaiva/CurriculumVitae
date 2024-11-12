@@ -1,7 +1,21 @@
 body {
-    background-color: black;
-    color: #d3d3d3;
+    background-color: #d3d3d3;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 ul {
@@ -10,11 +24,6 @@ ul {
     list-style-type: none;
     align-items: center;
     padding: 16px;
-}
-
-a {
-    color: #d3d3d3;
-    text-decoration: none;
 }
 
 figure {
@@ -29,19 +38,32 @@ header img {
 }
 
 h1 {
-    color: gray;
+    color: black;
 }
 
 h2 {
-    color: gray;
+    color: black;
 }
 
 main h3 {
-    color: darkgray;
+    color: black;
+}
+
+main h5 {
+    color: black;
+    font-weight: bold;
+}
+
+main p {
+    color: #363636;
 }
 
 ol {
-    color: darkgray;
+    color: gray;
+}
+
+main li {
+    color: #363636;
 }
 
 footer img {
@@ -49,7 +71,7 @@ footer img {
     width: 40px;
 }
 
-footer {
+footer div {
     display: flex;
     justify-content: center;
 }
@@ -61,12 +83,14 @@ footer a {
 
 footer p {
     margin-top: 2px;
+    font-weight: bold;
 }
 
-.container {
-    padding: 0px 50px;
-}
-
-nav a:hover {
+footer p:hover {
     color: gray;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
 }

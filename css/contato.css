@@ -4,3 +4,144 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-left: 185px;
+    margin-bottom: 5px;
+}
+
+.urg {
+    margin-top: 1px;
+    margin-left: 160px;
+}
+
+div input:hover{
+    cursor: pointer;
+}
+
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+footer p {
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+footer p:hover {
+    color: gray;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+}
+
+footer button {
+    border: none;
+    border-radius: 10%;
+}
+
+footer button:hover{
+    cursor: pointer;
+}
+
+.diasemana input:hover {
+    cursor: pointer;
+}
+
+.horario input:hover{
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form select {
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+
+form select:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.form {
+    margin-left: 20px;
+    justify-content: space-between;
+    display: row;
+    align-items: center;
+}
+
+.form input {
+    height: 25px;
+    width: 400px;
+    margin-bottom: 6px;
+}
+
+textarea {
+    margin-left: 20px;
+    justify-content: space-between;
+    display: row;
+    align-items: center;
+}
+
+.horario {
+    margin-left: 20px;
+    justify-content: space-between;
+    display: row;
+    align-items: center;
+}
+
+.diasemana {
+    margin-left: 20px;
+    justify-content: space-between;
+    display: row;
+    align-items: center;
+}
